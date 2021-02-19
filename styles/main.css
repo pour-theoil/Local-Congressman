@@ -1,0 +1,55 @@
+body {
+
+    margin: 0;
+    background-color: blue;
+}
+
+header {
+    justify-content: center;
+    align-items: ;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.social {
+    list-style: none;
+}
+
+.main {
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;   
+}
+
+.details {
+    background-color: red;
+    border-right: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    width: 100%;
+}
+
+
+img {
+    max-width: 400px;
+    order: 1;
+    flex 1;
+}
+
+.committee {
+    background-color: red;
+    display: flex;
+    border-top: 5px solid blue;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.legislation {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
